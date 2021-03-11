@@ -1,3 +1,4 @@
 //bringing in dependencies
-const mongoose = require("mongoose");
-const db = require("../models");
+const router = require("express").Router();
+const Workout = require("../models/workout.js");
+
