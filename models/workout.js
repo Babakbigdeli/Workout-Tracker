@@ -50,3 +50,7 @@ const workoutSchema = new Schema ({
 //converting our blogSchema into a Model we can work with
 
 const Workout = mongoose.model("Workout", workoutSchema);
+
+//and then export it
+
+module.exports = Workout;
